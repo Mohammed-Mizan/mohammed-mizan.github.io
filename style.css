@@ -1,0 +1,88 @@
+*{
+    
+    background-color:#ffffff;
+    font-family: Times, Georgia, serif
+}
+
+#header{
+    overflow: hidden;
+    background:#ffffff;
+    position:fixed;
+    top:0;
+    height: 60px;
+    width: 100%;
+}
+ul#menu{
+    padding:0;
+    margin:0;
+    list-style: none;
+    
+}
+ul#menu li{
+    float:left;
+    padding:20px 0 0 0 ;
+    height: 60px;
+    box-sizing: border-box;
+}
+li.logo{
+    width:40%;
+    text-align: left;
+}
+
+li.logo a{
+    color:black;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+li.sitename{
+     width: 50%;
+}
+
+li.sitename a{
+    color:black;
+    font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+    text-decoration: none;
+
+}
+
+#image{
+    margin-top:200px;
+    text-align: center;
+  
+}
+#aboutme{
+    text-align: center;
+    width: 40%;
+    margin-left: 430px;
+} 
+
+p{
+font-family: Times;
+font-style: normal;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.02em;
+
+
+}
+
+input[type=text] {
+  width:80%;
+  padding: 12px 20px;
+    margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+#grettings{
+    position: center ;
+    top:1450px;
+    right: 600px;
+    
+}
